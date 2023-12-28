@@ -13,7 +13,7 @@ These will be provided in a sql script, and a ConnectionUtil class that will run
 ### Account
 ```
 account_id integer primary key auto_increment,
-username varchar(255),
+username varchar(255) unique,
 password varchar(255)
 ```
 
